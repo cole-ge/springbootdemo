@@ -1,0 +1,4 @@
+#server:
+#  port: 9090
+#  servlet:
+#    context-path: /agriclaim    #2.x版本   1.x没有servlet

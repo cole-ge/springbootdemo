@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gzw.demo.mapper.NxBaxxbMapper" >
+  <resultMap id="BaseResultMap" type="com.gzw.demo.pojo.NxBaxxb" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="REGISTNO" property="registno" jdbcType="CHAR" />
+    <result column="BUSINESSID" property="businessid" jdbcType="DECIMAL" />
+    <result column="REPORTDATE" property="reportdate" jdbcType="TIMESTAMP" />
+    <result column="REPORTHOUR" property="reporthour" jdbcType="CHAR" />
+    <result column="REPORTORNAME" property="reportorname" jdbcType="VARCHAR" />
+    <result column="REPORTORNUMBER" property="reportornumber" jdbcType="VARCHAR" />
+    <result column="REPORTORMOBILE" property="reportormobile" jdbcType="VARCHAR" />
+    <result column="LINKERNAME" property="linkername" jdbcType="VARCHAR" />
+    <result column="PHONENUMBER" property="phonenumber" jdbcType="VARCHAR" />
+    <result column="LINKERMOBILE" property="linkermobile" jdbcType="VARCHAR" />
+    <result column="RELATIONSHIP" property="relationship" jdbcType="CHAR" />
+    <result column="MERCYFLAG" property="mercyflag" jdbcType="CHAR" />
+    <result column="DAMAGEDATE" property="damagedate" jdbcType="TIMESTAMP" />
+    <result column="DAMAGEHOUR" property="damagehour" jdbcType="CHAR" />
+    <result column="DAMAGETYPECODE" property="damagetypecode" jdbcType="VARCHAR" />
+    <result column="DAMAGENAME" property="damagename" jdbcType="VARCHAR" />
+    <result column="DAMAGEADDRESS" property="damageaddress" jdbcType="VARCHAR" />
+    <result column="OPERATORCODE" property="operatorcode" jdbcType="VARCHAR" />
+    <result column="OPERATORCOMCODE" property="operatorcomcode" jdbcType="CHAR" />
+    <result column="FIRSTREGCODE" property="firstregcode" jdbcType="VARCHAR" />
+    <result column="FIRSTREGCOMCODE" property="firstregcomcode" jdbcType="CHAR" />
+    <result column="MAKECOM" property="makecom" jdbcType="CHAR" />
+    <result column="CLAIMSTATUS" property="claimstatus" jdbcType="CHAR" />
+    <result column="CANCELFLAG" property="cancelflag" jdbcType="CHAR" />
+    <result column="SUBMITNUMBER" property="submitnumber" jdbcType="DECIMAL" />
+    <result column="VALIDFLAG" property="validflag" jdbcType="CHAR" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+    <result column="MATCHFLAG" property="matchflag" jdbcType="VARCHAR" />
+    <result column="INSERTTIMEFORHIS" property="inserttimeforhis" jdbcType="TIMESTAMP" />
+    <result column="OPERATETIMEFORHIS" property="operatetimeforhis" jdbcType="TIMESTAMP" />
+    <result column="COMCODE" property="comcode" jdbcType="CHAR" />
+    <result column="TYPEFLAG" property="typeflag" jdbcType="CHAR" />
+    <result column="GSCODE" property="gscode" jdbcType="VARCHAR" />
+    <result column="FIRSTREGNAME" property="firstregname" jdbcType="VARCHAR" />
+    <result column="OPINIONTYPE" property="opiniontype" jdbcType="VARCHAR" />
+    <result column="OPERATORNAME" property="operatorname" jdbcType="VARCHAR" />
+    <result column="DAMAGEADDRESSDETAIL" property="damageaddressdetail" jdbcType="VARCHAR" />
+    <result column="VIRTUAL_COMCODE" property="virtualComcode" jdbcType="CHAR" />
+    <result column="POLICYNO" property="policyno" jdbcType="CHAR" />
+    <result column="REGISTBATCHNO" property="registbatchno" jdbcType="CHAR" />
+    <result column="DAMAGEDETAILITEM" property="damagedetailitem" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
